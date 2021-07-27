@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background : url("background.jpg");
+    height: 100vh;
+}
+.keys{
+    font-size: 30px;
+    color: orange;
+    padding: 5px;
+    margin: 5px;
+    border-style: solid red;
+}
+.key{
+    border-style: ridge;
+    border-color: red;
+    width: 10%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20%;
+    background: rgba(0, 0, 0, 0.6);
+}
