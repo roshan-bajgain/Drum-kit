@@ -3,6 +3,5 @@ window.addEventListener("keydown", function (e) {
     const key = document.querySelector(`.key[data-key="${e.key}"]`);
     console.log(e.key);
     if (!audio) return;
-    audio.CurrentTime = 0;
     audio.play();
 });
